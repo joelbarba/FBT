@@ -15,37 +15,37 @@ Array.prototype['getBySec'] = function(value:string) {
 })
 export class AppComponent {
   public items: Array<any> = [
-    { sec: 1, type: 'par', x: 740, y:  15, w:   3, h:  34 }, // Aegon1 parent
-    { sec: 1, type: 'par', x: 540, y:  30, w:   3, h:  19 }, // Rhaenys parent
-    { sec: 1, type: 'par', x: 940, y:  30, w:   3, h:  19 }, // Visenya parent
-    { sec: 1, type: 'par', x: 540, y:  30, w: 400, h:   3 }, // Aegon1 + Rhaenys + Visenya parent
-    { sec: 1, type: 'guy', name: 'Aegon I',  img: 'aegon1.jpg',  x: 700, y: 50, links: [20, 30, 40, 50], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen' },
-    { sec: 1, type: 'guy', name: 'Visenya',  img: 'visenya.jpg', x: 900, y: 50, links: [20, 30], extLink: 'https://awoiaf.westeros.org/index.php/Visenya_Targaryen' },
-    { sec: 1, type: 'guy', name: 'Rhaenys',  img: 'rhaenys.jpg', x: 500, y: 50, links: [40, 50], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen' },
-    { sec: 1, type: 'par', x: 90, y:  30, w:   3, h:  19 }, // Argella parent
-    { sec: 1, type: 'guy', name: 'Argella Durrandon', img: 'argella_durrandon.jpg', x:  50, y: 50, links: [60, 70], extLink: 'https://awoiaf.westeros.org/index.php/Argella_Durrandon' },
-    { sec: 1, type: 'par', x: 260, y:  30, w:   3, h:  19 }, // Orys parent
-    { sec: 1, type: 'guy', name: 'Orys Baratheon',    img: 'orys_baratheorn.jpg',   x: 220, y: 50, links: [60, 70], extLink: 'https://awoiaf.westeros.org/index.php/Orys_Baratheon'  },
+    { sec: 1, type: 'par', x: 740, y:  45, w:   3, h:  34 }, // Aegon1 parent
+    { sec: 1, type: 'par', x: 540, y:  60, w:   3, h:  19 }, // Rhaenys parent
+    { sec: 1, type: 'par', x: 940, y:  60, w:   3, h:  19 }, // Visenya parent
+    { sec: 1, type: 'par', x: 540, y:  60, w: 400, h:   3 }, // Aegon1 + Rhaenys + Visenya parent
+    { sec: 1, type: 'guy', name: 'Aegon I',  img: 'aegon1.jpg',  x: 700, y: 80, links: [20, 30, 40, 50], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_I_Targaryen' },
+    { sec: 1, type: 'guy', name: 'Visenya',  img: 'visenya.jpg', x: 900, y: 80, links: [20, 30], extLink: 'https://awoiaf.westeros.org/index.php/Visenya_Targaryen' },
+    { sec: 1, type: 'guy', name: 'Rhaenys',  img: 'rhaenys.jpg', x: 500, y: 80, links: [40, 50], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen' },
+    { sec: 1, type: 'par', x: 182, y: 60, w: 3, h: 19 }, // Argella parent
+    { sec: 1, type: 'guy', name: 'Argella Durrandon', img: 'argella_durrandon.jpg', x: 142, y: 80, links: [60, 70], extLink: 'https://awoiaf.westeros.org/index.php/Argella_Durrandon' },
+    { sec: 1, type: 'par', x: 331, y: 60, w: 3, h: 19 }, // Orys parent
+    { sec: 1, type: 'guy', name: 'Orys Baratheon',    img: 'orys_baratheorn.jpg',   x: 290, y: 80, links: [60, 70], extLink: 'https://awoiaf.westeros.org/index.php/Orys_Baratheon'  },
 
-    { sec: 20, type: 'mar', x: 787, y: 120, w: 112, h: 3 }, // Aegon1 + Visenya
+    { sec: 20, type: 'mar', x: 787, y: 150, w: 112, h: 3 }, // Aegon1 + Visenya
 
-    { sec: 30, type: 'par', x: 840, y: 123, w: 3, h: 156 }, // Maegor1 parent
+    { sec: 30, type: 'par', x: 840, y: 153, w: 3, h: 126 }, // Maegor1 parent
     { sec: 30, type: 'guy', name: 'Maegor I', img: 'maegor1.jpg', x: 800, y: 280, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen' },
 
-    { sec: 40, type: 'mar', x: 587, y: 120, w: 112, h: 3 }, // Aegon1 + Rhaenys
+    { sec: 40, type: 'mar', x: 587, y: 150, w: 112, h: 3 }, // Aegon1 + Rhaenys
 
-    { sec: 50, type: 'par', x: 640, y: 123, w: 3, h: 156 }, // Aenys1 parent
+    { sec: 50, type: 'par', x: 640, y: 153, w: 3, h: 126 }, // Aenys1 parent
     { sec: 50, type: 'guy', name: 'Aenys I',  img: 'aenys1.jpg',  x: 600, y: 280, links: [80, 100, 120, 130, 140, 150, 160], extLink: 'https://awoiaf.westeros.org/index.php/Aenys_I_Targaryen' },
 
 
-    { sec: 60, type: 'mar', x: 137, y: 120, w: 82, h: 3 }, // Argella + Orys
+    { sec: 60, type: 'mar', x: 229, y: 150, w: 60, h: 3 }, // Argella + Orys
 
-    { sec: 70, type: 'par-dash', x: 175, y: 123, w: 0, h: 153 }, // Davos + Robar Baratheon
+    { sec: 70, type: 'par-dash', x: 258, y: 153, w: 0, h: 123 }, // Davos + Robar Baratheon
     // { sec: 70, type: 'par', x: 90,  y: 250, w: 175, h: 3 },
     // { sec: 70, type: 'par', x: 90,  y: 250, w: 3, h: 29 },
     // { sec: 70, type: 'par', x: 265, y: 250, w: 3, h: 29 },
     // { sec: 70, type: 'guy', name: 'Davos Baratheon', img: 'davos_baratheon.jpg', x: 50,  y: 280, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Davos_Baratheon' },
-    { sec: 70, type: 'guy', name: 'Rogar Baratheon', img: 'robar_baratheon.jpg', x: 134,  y: 280, links: [80, 164, 166], extLink: 'https://awoiaf.westeros.org/index.php/Rogar_Baratheon' },
+    { sec: 70, type: 'guy', name: 'Rogar Baratheon', img: 'robar_baratheon.jpg', x: 218, y: 280, links: [80, 164, 166], extLink: 'https://awoiaf.westeros.org/index.php/Rogar_Baratheon' },
 
     { sec: 80, type: 'guy', name: 'Alyssa Velaryon', img: 'alyssa_velaryon.jpg', x: 410, y: 280, links: [100, 120, 130, 140, 150, 160, 164, 166], extLink: 'https://awoiaf.westeros.org/index.php/Alyssa_Velaryon' },
 
@@ -75,7 +75,7 @@ export class AppComponent {
     { sec: 160, type: 'guy', name: 'Alysanne',    img: 'alysanne_targaryen.jpg', x: 1020, y: 500, links: [200, 210, 220, 230, 240, 250, 260, 270, 280, 290], extLink: 'https://awoiaf.westeros.org/index.php/Alysanne_Targaryen' },
 
 
-    { sec: 164, type: 'mar', x: 221, y: 345, w: 188, h: 3 }, // Alyssa + Rogar
+    { sec: 164, type: 'mar', x: 305, y: 345, w: 103, h: 3 }, // Alyssa + Rogar
 
     { sec: 166, type: 'par', x: 355, y: 348, w: 3, h: 411 }, // Jocelyn Baratheon parents
     { sec: 166, type: 'guy', name: 'Jocelyn Baratheon', img: 'jocelyn_baratheon.jpg', x: 315, y: 750, links: [300], extLink: 'https://awoiaf.westeros.org/index.php/Jocelyn_Baratheon' },
@@ -286,6 +286,12 @@ export class AppComponent {
   }
 
   public reset = () => {
+    // Absolute possitioning
+    this.items.forEach(item => {
+      item.x = item.x - 100;
+      item.y = item.y + 20;
+    });
+
     this.lastSec = 0;
     this.items.forEach(item => { item.$show = false; item.$allShown = false; });
     this.nextPlain();
@@ -360,6 +366,9 @@ export class AppComponent {
 
   // -DEBUG----------------------------
 
+  public devSel = null;
+  public itemsBkp;
+
   public iniDev = () => {
     this.showAll();
     this.devSel = this.items[this.items.length - 1];
@@ -368,7 +377,6 @@ export class AppComponent {
       this.itemsBkp.push({ ...item });
     })
   };
-  public itemsBkp;
 
   @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
@@ -391,7 +399,27 @@ export class AppComponent {
 
     event.preventDefault();
   }
-  public devSel = null;
+
+  public copyItem = () => {
+    // let val = JSON.stringify(this.devSel);
+    let val;
+    if (this.devSel.type === 'guy') {
+      val = `x: ${this.devSel.x}, y: ${this.devSel.y} `;
+    } else {
+      val = `x: ${this.devSel.x}, y: ${this.devSel.y} , w: ${this.devSel.w} , h: ${this.devSel.h} `;
+    }
+    let selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = val;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
+  };
 
 
 }

@@ -9,21 +9,29 @@
     <span style="color: yellow">lastSec = {{ lastSec }}</span>
     <div class="dev-panel">
       <div>SELECT: {{devSel.sec}} - {{devSel.type}}, {{devSel.name}}</div>
-      <div>x: {{devSel.x}}, y: {{devSel.y}}, w: {{devSel.w}}, h: {{devSel.h}}</div>
+      <!--<div>{{devSel | json}}</div>-->
+      <div>
+        <button (click)="copyItem()">COPY</button>
+        x: {{devSel.x}}, y: {{devSel.y}}, w: {{devSel.w}}, h: {{devSel.h}}
+      </div>
     </div>
   </div>
 
   <div *ngFor="let item of items">
     <!--<app-card *ngIf="item.type==='guy'" [item]="item" [hidden]="!item.$show"></app-card>-->
 
-    <div class="card" *ngIf="item.type==='guy'" [hidden]="!item.$show"
-         [style.left.px]="item.x" [style.top.px]="item.y">
+    <div class="card" *ngIf="item.type==='guy'"
+         [hidden]="!item.$show"
+         [class.highlight]="devSel === item"
+         [style.left.px]="item.x"
+         [style.top.px]="item.y">
       <img [src]="'../assets/' + item.img" (click)="unveil(item); devSel = item" [class.veiled]="!item.$allShown"/>
       <div class="name"><a target="_blank" [href]="item.extLink">{{ item.name }}</a></div>
     </div>
 
     <div *ngIf="item.type!=='guy'" (click)="devSel = item"
          [hidden]="!item.$show"
+         [class.highlight]="devSel === item"
          [ngClass]="item.type"
          [style.left.px]="item.x"
          [style.top.px]="item.y"
