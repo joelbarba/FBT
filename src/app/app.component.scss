@@ -1,16 +1,36 @@
 .main-canvas {
+  font-family: Verdana, Arial, Helvetica, serif;
+
   background: black;
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  height: 3000px;
+  height: 2000px;
   width: 2000px;
+
+  .targaryen-title {
+    position: absolute;
+    //top: 60px;
+    //left: 1200px;
+    h2 {
+      color: #ff00009c;
+      text-align: center;
+      font-size: 28px;
+    }
+  }
 
   .controls {
     position: fixed;
-    top: 10px;
-    left : 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #3a3a3ad4;
+    padding: 10px 15px;
     z-index: 9999;
-    width: 100vw;
+    button {
+      margin-right: 15px;
+      font-size: 14px;
+      padding: 3px 10px;
+    }
     .dev-panel {
       float: right;
       color: #00ff23;
@@ -25,6 +45,8 @@
     width: 84px;
     height: 122px;
     img {
+      //width: calc(84px / 1.5);
+      //height: calc(122px / 1.5);
       display: block;
       border: 1px solid red;
       &.veiled {
@@ -76,5 +98,10 @@
     }
   }
 
-
+  &.fact-1  { .card .name { line-height: 18px; a { font-size: 14px; } } }
+  &.fact-09 { .card .name { line-height: 17px; a { font-size: 13px; } } }
+  &.fact-08 { .card .name { line-height: 14px; a { font-size: 11px; } } }
+  &.fact-07 { .card .name { line-height: 12px; a { font-size: 10px; } } }
+  &.fact-06 { .card .name { line-height: 10px; a { font-size: 9px;  } } }
+  &.fact-05 { .card .name { line-height: 9px;  a { font-size: 8px;  } } }
 }

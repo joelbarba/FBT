@@ -146,50 +146,50 @@ export class AppComponent {
     { sec: 300, type: 'mar', x: 402, y: 840, w: 427, h: 3 }, // Jocelyn  + Aemon
 
     { sec: 310, type: 'par', x: 649,  y: 843,  w: 3, h: 56}, // Rhaenys parents
-    { sec: 310, type: 'guy', name: 'Rhaenys',  img: 'rhaenys_targaryen.jpg', x: 608, y: 900, links: [332], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)' },
+    { sec: 310, type: 'guy', name: 'Rhaenys',  img: 'rhaenys_targaryen.jpg', x: 608, y: 900, links: [355, 360, 370], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenys_Targaryen_(daughter_of_Aemon)' },
 
 
     { sec: 320, type: 'par', x: 997,  y: 893,  w: 3, h: 36}, // Aemma parents
-    { sec: 320, type: 'guy', name: 'Aemma Arryn',  img: 'aemma_arryn.jpg', x: 950, y: 930, links: [360, 370], extLink: 'https://awoiaf.westeros.org/index.php/Aemma_Arryn' },
+    { sec: 320, type: 'guy', name: 'Aemma Arryn',  img: 'aemma_arryn.jpg', x: 950, y: 930, links: [380, 390], extLink: 'https://awoiaf.westeros.org/index.php/Aemma_Arryn' },
 
     { sec: 330, type: 'mar', x: 1157, y: 825, w: 32, h: 3 }, // Alyssa + Baelon
 
     { sec: 340, type: 'par', x: 1172,  y: 828,  w: 3, h: 101}, // Viserys parents
-    { sec: 340, type: 'guy', name: 'Viserys I',img: 'viserys1_targaryen.jpg', x: 1129, y: 930, links: [360, 370, 380], extLink: 'https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen' },
+    { sec: 340, type: 'guy', name: 'Viserys I',img: 'viserys1_targaryen.jpg', x: 1129, y: 930, links: [380, 390, 400, 410, 420, 430, 440], extLink: 'https://awoiaf.westeros.org/index.php/Viserys_I_Targaryen' },
 
     { sec: 350, type: 'par', x: 1172,  y: 828,  w: 3, h: 85}, // Daemon parents
     { sec: 350, type: 'par', x: 1172,  y: 910,  w: 134, h: 3}, // Daemon parents
     { sec: 350, type: 'par', x: 1303,  y: 910,  w: 3, h: 149}, // Daemon parents
-    { sec: 350, type: 'guy', name: 'Daemon',  img: 'daemon_targaryen.jpg', x: 1260, y: 1060, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Daemon_Targaryen' },
+    { sec: 350, type: 'guy', name: 'Daemon',  img: 'daemon_targaryen.jpg', x: 1260, y: 1060, links: [450, 460, 470, 520, 530, 540], extLink: 'https://awoiaf.westeros.org/index.php/Daemon_Targaryen' },
 
     { sec: 355, type: 'mar', x: 537, y: 962, w: 70, h: 3 }, // Corlys + Rhaenys
-    { sec: 355, type: 'guy', name: 'Corlys Velaryon',  img: 'corlys_velaryon.jpg', x: 450, y: 900, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Corlys_Velaryon' },
+    { sec: 355, type: 'guy', name: 'Corlys Velaryon',  img: 'corlys_velaryon.jpg', x: 450, y: 900, links: [360, 370], extLink: 'https://awoiaf.westeros.org/index.php/Corlys_Velaryon' },
 
     { sec: 360, type: 'par', x: 570,  y: 965,  w: 3, h: 104}, // Laena parents
-    { sec: 360, type: 'guy', name: 'Laena Velaryon',img: 'laena_velaryon.jpg', x: 530, y: 1070, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Laena_Velaryon' },
+    { sec: 360, type: 'guy', name: 'Laena Velaryon',img: 'laena_velaryon.jpg', x: 530, y: 1070, links: [350, 450, 460, 470], extLink: 'https://awoiaf.westeros.org/index.php/Laena_Velaryon' },
 
     { sec: 370, type: 'par', x: 570,  y: 965,  w: 3, h: 104}, // Leanor parents
     { sec: 370, type: 'par', x: 570,  y: 1055,  w: 170, h: 3}, // Leanor parents
     { sec: 370, type: 'par', x: 740,  y: 1055,  w: 3, h: 64}, // Leanor parents
-    { sec: 370, type: 'guy', name: 'Leanor Velaryon',img: 'leanor_velaryon.jpg', x: 700, y: 1120, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Laenor_Velaryon' },
+    { sec: 370, type: 'guy', name: 'Leanor Velaryon',img: 'leanor_velaryon.jpg', x: 700, y: 1120, links: [390, 480, 490, 500, 510], extLink: 'https://awoiaf.westeros.org/index.php/Laenor_Velaryon' },
 
     { sec: 380, type: 'mar', x: 1037, y: 1000, w: 90, h: 3 }, // Aemma + Viserys I
 
     { sec: 390, type: 'par', x: 1080,  y: 1003,  w: 3, h: 116}, // Rhaenyra parents
-    { sec: 390, type: 'guy', name: 'Rhaenyra',  img: 'rhaenyra_targaryen.jpg', x: 1040, y: 1120, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen' },
+    { sec: 390, type: 'guy', name: 'Rhaenyra',  img: 'rhaenyra_targaryen.jpg', x: 1040, y: 1120, links: [370, 480, 490, 500, 510, 350, 520, 530, 540], extLink: 'https://awoiaf.westeros.org/index.php/Rhaenyra_Targaryen' },
 
 
 
     { sec: 400, type: 'mar', x: 1216, y: 1000, w: 387, h: 3 }, // Viserys I + Alicent
-    { sec: 400, type: 'guy', name: 'Alicent Hightower',  img: 'alicent_hightower.jpg', x: 1605, y: 930, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Alicent_Hightower' },
+    { sec: 400, type: 'guy', name: 'Alicent Hightower',  img: 'alicent_hightower.jpg', x: 1605, y: 930, links: [340, 400, 410, 420, 430, 440], extLink: 'https://awoiaf.westeros.org/index.php/Alicent_Hightower' },
 
     { sec: 410, type: 'par', x: 1460,  y: 1003,  w: 3, h: 226}, // Aegon parents
-    { sec: 410, type: 'guy', name: 'Aegon II', img: 'aegon_targaryen2.jpg',  x: 1420, y: 1210, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen' },
+    { sec: 410, type: 'guy', name: 'Aegon II', img: 'aegon_targaryen2.jpg',  x: 1420, y: 1210, links: [420, 550, 560, 570, 580], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_II_Targaryen' },
 
     { sec: 420, type: 'par', x: 1460,  y: 1003,  w: 3, h: 200}, // Helaena parents
     { sec: 420, type: 'par', x: 1460,  y: 1183, w: 140, h: 3}, // Helaena parents
     { sec: 420, type: 'par', x: 1600,  y: 1183,  w: 3, h: 26}, // Helaena parents
-    { sec: 420, type: 'guy', name: 'Helaena',  img: 'helaena_targaryen.jpg', x: 1555, y: 1210, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Helaena_Targaryen' },
+    { sec: 420, type: 'guy', name: 'Helaena',  img: 'helaena_targaryen.jpg', x: 1555, y: 1210, links: [410, 550, 560, 570, 580], extLink: 'https://awoiaf.westeros.org/index.php/Helaena_Targaryen' },
 
     { sec: 430, type: 'par', x: 1460,  y: 1003,  w: 3, h: 200}, // Aemond parents
     { sec: 430, type: 'par', x: 1460,  y: 1183, w: 269, h: 3}, // Aemond parents
@@ -235,12 +235,12 @@ export class AppComponent {
     { sec: 520, type: 'mar', x: 1127, y: 1160, w: 132, h: 3 }, // Rhaenyra + Daemon
 
     { sec: 530, type: 'par', x: 1195,  y: 1163,  w: 3, h: 376}, // Aegon parents
-    { sec: 530, type: 'guy', name: 'Aegon III',   img: 'aegon_targaryen3.jpg',   x: 1154, y: 1540, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen' },
+    { sec: 530, type: 'guy', name: 'Aegon III',   img: 'aegon_targaryen3.jpg',   x: 1154, y: 1540, links: [610], extLink: 'https://awoiaf.westeros.org/index.php/Aegon_III_Targaryen' },
 
     { sec: 540, type: 'par', x: 1195,  y: 1163,  w: 3, h: 345}, // Viserys parents
     { sec: 540, type: 'par', x: 1195,  y: 1508,  w: 135, h: 3}, // Viserys parents
     { sec: 540, type: 'par', x: 1327,  y: 1508,  w: 3, h: 31}, // Viserys parents
-    { sec: 540, type: 'guy', name: 'Viserys II',  img: 'viserys_targaryen2.jpg', x: 1290, y: 1540, links: [], extLink: 'https://awoiaf.westeros.org/index.php/Viserys_II_Targaryen' },
+    { sec: 540, type: 'guy', name: 'Viserys II',  img: 'viserys_targaryen2.jpg', x: 1290, y: 1540, links: [600], extLink: 'https://awoiaf.westeros.org/index.php/Viserys_II_Targaryen' },
 
 
     { sec: 550, type: 'mar', x: 1507, y: 1280, w: 47, h: 3 }, // Aegon II + Helaena
@@ -275,32 +275,83 @@ export class AppComponent {
 
 
 
-    { sec: 999, type: 'guy', name: 'Rhaena',  img: 'rhaena_targaryen3.jpg', x: 315, y: 2680, links: [], extLink: '' },
+    // { sec: 999, type: 'guy', name: 'Rhaena',  img: 'rhaena_targaryen3.jpg', x: 315, y: 2680, links: [], extLink: '' },
   ];
 
   constructor() {  }
 
   ngOnInit() {
-    this.reset();
-    this.iniDev();
-  }
 
-  public reset = () => {
-    // Absolute possitioning
+    // Absolute positioning
     this.items.forEach(item => {
       item.x = item.x - 100;
       item.y = item.y + 20;
     });
 
+    let jTargaryenTree = JSON.parse(localStorage.getItem('jTargaryenTree'));
+    console.log('jTargaryenTree = ', jTargaryenTree);
+    if (!!jTargaryenTree) {
+      this.lastSec = jTargaryenTree.lastSec;
+      this.fact = jTargaryenTree.zoomFact;
+      this.items.forEach(item => {
+        item.$allShown = false;
+        item.$show = (jTargaryenTree.shownList.indexOf(item.sec) >= 0);
+        this.isAllShown(item);
+      });
+      // this.items.filter(item => item.sec <= this.lastSec).forEach(item => item.$show = true);
+      // this.items.forEach(item => { this.isAllShown(item); });
+
+    } else {
+      this.reset();
+    }
+
+    // this.iniDev();
+  }
+
+  public saveLocalStorage = () => {
+    let shownList = [];
+    this.items.forEach(item => {
+      if (!!item.$show && shownList.indexOf(item.sec) === -1) { shownList.push(item.sec); }
+    });
+    localStorage.setItem('jTargaryenTree', JSON.stringify({
+      lastSec   : this.lastSec,
+      zoomFact  : this.fact,
+      shownList
+    }));
+  };
+
+  public reset = () => {
     this.lastSec = 0;
     this.items.forEach(item => { item.$show = false; item.$allShown = false; });
     this.nextPlain();
+    this.saveLocalStorage();
   };
 
   public showAll = () => {
     this.lastSec = 99999;
     this.items.forEach(item => { item.$show = true; item.$allShown = true; });
     this.items.filter(item => item.sec === 1).forEach(item => item.$show = true);
+    this.saveLocalStorage();
+  };
+
+  public fact = 1;
+  public factCss = 'fact-1';
+  public zoomIn = () => {
+    if (this.fact < 1) { this.fact = this.fact + 0.1; }
+    this.zoomRend();
+  };
+  public zoomOut = () => {
+    if (this.fact >= 0.6) { this.fact = this.fact - 0.1; }
+    this.zoomRend();
+  };
+  public zoomRend() {
+    this.factCss = 'fact-1';
+    if (this.fact <= 0.9) { this.factCss = 'fact-09'; }
+    if (this.fact <= 0.8) { this.factCss = 'fact-08'; }
+    if (this.fact <= 0.7) { this.factCss = 'fact-07'; }
+    if (this.fact <= 0.6) { this.factCss = 'fact-06'; }
+    if (this.fact <= 0.5) { this.factCss = 'fact-05'; }
+    this.saveLocalStorage();
   };
 
   public unveil = (item) => {
@@ -316,6 +367,19 @@ export class AppComponent {
       });
     }
     this.items.forEach(item => {  this.isAllShown(item); });
+
+    // Update lastSec --> The lowest not shown
+    let minNotShown = 0;
+    this.items.filter(item => (!item.$show)).forEach(item => {
+      if (minNotShown === 0 || item.sec < minNotShown) { minNotShown = item.sec; }
+    });
+    let prevMinNotShown = 1;
+    this.items.filter(item => item.sec < minNotShown && !!item.$show).forEach(item => {
+      if (item.sec > prevMinNotShown) { prevMinNotShown = item.sec; }
+    });
+    this.lastSec = prevMinNotShown;
+
+    this.saveLocalStorage();
   };
 
   public nextItem = () => {
@@ -329,19 +393,20 @@ export class AppComponent {
 
   public lastSec = 1;
   public nextPlain = () => {
-
     // Find the next sec after lastSec (min after lastSec)
     let nextSec = 0;
-    this.items.filter(item => item.sec > this.lastSec).forEach(item => {
+    this.items.filter(item => (item.sec > this.lastSec && !item.$show)).forEach(item => {
       if (nextSec === 0 || item.sec < nextSec) { nextSec = item.sec; }
     });
-    this.lastSec = nextSec;
+    this.lastSec = nextSec || 610;
 
     this.items.filter(item => item.sec === this.lastSec).forEach(item =>  item.$show = true);
     this.items.forEach(item => { this.isAllShown(item); });
+    this.saveLocalStorage();
   };
+
   public prevPlain = () => {
-    this.items.filter(item => item.sec === this.lastSec).forEach(item =>  item.$show = false);
+    this.items.filter(item => item.sec >= this.lastSec).forEach(item => item.$show = false);
     this.items.forEach(item => { this.isAllShown(item); });
 
     // Find the prev sec before lastSec (max before lastSec)
@@ -351,6 +416,10 @@ export class AppComponent {
     });
     this.lastSec = prevSec;
 
+    // this.items.filter(item => item.sec > this.lastSec).forEach(item => item.$show = true);
+    // this.items.forEach(item => { this.isAllShown(item); });
+
+    this.saveLocalStorage();
   };
 
 
@@ -381,23 +450,24 @@ export class AppComponent {
   @HostListener('document:keydown', ['$event'])
   handleKeyboardEvent(event: KeyboardEvent) {
     // console.log('event.key', event.key);
-    if (event.key === 'ArrowDown')   { this.devSel.y++; } // console.log('Down'); }
-    if (event.key === 'ArrowUp')     { this.devSel.y--; } // console.log('Up'); }
-    if (event.key === 'ArrowLeft')   { this.devSel.x--; } // console.log('Left'); }
-    if (event.key === 'ArrowRight')  { this.devSel.x++; } // console.log('Right'); }
-    if (this.devSel.type !== 'guy') {
-      if (event.key === 'w') { this.devSel.w++; }
-      if (event.key === 'W') { this.devSel.w--; }
-      if (event.key === 'h') { this.devSel.h++; }
-      if (event.key === 'H') { this.devSel.h--; }
-    }
+    if (!!this.devSel) {
+      if (event.key === 'ArrowDown')   { this.devSel.y++; } // console.log('Down'); }
+      if (event.key === 'ArrowUp')     { this.devSel.y--; } // console.log('Up'); }
+      if (event.key === 'ArrowLeft')   { this.devSel.x--; } // console.log('Left'); }
+      if (event.key === 'ArrowRight')  { this.devSel.x++; } // console.log('Right'); }
+      if (this.devSel.type !== 'guy') {
+        if (event.key === 'w') { this.devSel.w++; }
+        if (event.key === 'W') { this.devSel.w--; }
+        if (event.key === 'h') { this.devSel.h++; }
+        if (event.key === 'H') { this.devSel.h--; }
+      }
 
-    if (event.key === 'Escape')  {
-      let ind = this.items.indexOf(this.devSel);
-      Object.assign(this.devSel, this.itemsBkp[ind]);
+      if (event.key === 'Escape')  {
+        let ind = this.items.indexOf(this.devSel);
+        Object.assign(this.devSel, this.itemsBkp[ind]);
+      }
+      event.preventDefault();
     }
-
-    event.preventDefault();
   }
 
   public copyItem = () => {

@@ -1,20 +1,29 @@
 <!--<h1 style="text-align: center">Targaryen Tree</h1>-->
-<div class="main-canvas">
+<div class="main-canvas" [ngClass]="factCss">
   <div class="controls">
     <button (click)="reset()">Reset</button>
     <button (click)="showAll()">Show All</button>
     <!--<button (click)="nextItem()">Next</button>-->
-    <button (click)="prevPlain()"><<<<< Prev</button>
-    <button (click)="nextPlain()">Next >>>>></button>
-    <span style="color: yellow">lastSec = {{ lastSec }}</span>
-    <div class="dev-panel">
-      <div>SELECT: {{devSel.sec}} - {{devSel.type}}, {{devSel.name}}</div>
-      <!--<div>{{devSel | json}}</div>-->
-      <div>
-        <button (click)="copyItem()">COPY</button>
-        x: {{devSel.x}}, y: {{devSel.y}}, w: {{devSel.w}}, h: {{devSel.h}}
-      </div>
-    </div>
+
+    <button (click)="zoomOut()">Z-</button>
+    <button (click)="zoomIn()">Z+</button>
+
+    <button (click)="prevPlain()"><< Prev</button>
+    <button (click)="nextPlain()">Next >></button>
+
+    <!--fact = {{fact}}-->
+
+    <!--<span style="color: yellow">lastSec = {{ lastSec }}</span>-->
+    <!--<div class="dev-panel">-->
+      <!--<div>SELECT: {{devSel.sec}} - {{devSel.type}}, {{devSel.name}}</div>-->
+      <!--&lt;!&ndash;<div>{{devSel | json}}</div>&ndash;&gt;-->
+      <!--<div>-->
+        <!--<button (click)="copyItem()">COPY</button>-->
+        <!--x: {{devSel.x}}, y: {{devSel.y}}, w: {{devSel.w}}, h: {{devSel.h}}-->
+      <!--</div>-->
+    <!--</div>-->
+
+
   </div>
 
   <div *ngFor="let item of items">
@@ -23,22 +32,40 @@
     <div class="card" *ngIf="item.type==='guy'"
          [hidden]="!item.$show"
          [class.highlight]="devSel === item"
-         [style.left.px]="item.x"
-         [style.top.px]="item.y">
-      <img [src]="'../assets/' + item.img" (click)="unveil(item); devSel = item" [class.veiled]="!item.$allShown"/>
+         [style.width.px]="84 * fact"
+         [style.height.px]="122 * fact"
+         [style.left.px]="item.x * fact"
+         [style.top.px]="item.y * fact">
+
+           <!--(click)="unveil(item); devSel = item"-->
+      <img [src]="'../assets/' + item.img"
+           [style.width.px]="84 * fact"
+           [style.height.px]="122 * fact"
+           (click)="unveil(item)"
+           [class.veiled]="!item.$allShown"/>
       <div class="name"><a target="_blank" [href]="item.extLink">{{ item.name }}</a></div>
     </div>
 
-    <div *ngIf="item.type!=='guy'" (click)="devSel = item"
+    <!--(click)="devSel = item"-->
+    <div *ngIf="item.type!=='guy'"
          [hidden]="!item.$show"
          [class.highlight]="devSel === item"
          [ngClass]="item.type"
-         [style.left.px]="item.x"
-         [style.top.px]="item.y"
-         [style.width.px]="item.w"
-         [style.height.px]="item.h">
+         [style.left.px]="item.x * fact"
+         [style.top.px]="item.y * fact"
+         [style.width.px]="item.w * fact"
+         [style.height.px]="item.h * fact">
     </div>
 
+  </div>
+
+  <div class="targaryen-title"
+       [style.top.px]="60"
+       [style.left.px]="1100 * fact">
+    <img src="../assets/targaryen.jpg"
+         [style.width.px]="300 * fact"
+         [style.height.px]="300 * fact">>
+    <h2>Targaryen Dynasty</h2>
   </div>
 
 </div>
